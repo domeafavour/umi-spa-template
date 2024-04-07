@@ -6,10 +6,12 @@ specifiers:
   '@types/react-dom': ^18.0.11
   typescript: ^5.0.3
   umi: ^4.1.8
+  zustand: ^4.5.2
 
 dependencies:
   '@tanstack/react-query': registry.npmjs.org/@tanstack/react-query/5.29.0
   umi: registry.npmjs.org/umi/4.1.8_o5fqwwgpzgrhq3zp46bhcohhqm
+  zustand: registry.npmjs.org/zustand/4.5.2_@types+react@18.2.74
 
 devDependencies:
   '@types/react': registry.npmjs.org/@types/react/18.2.74
@@ -8374,6 +8376,14 @@ packages:
       react: registry.npmjs.org/react/18.1.0
     dev: false
 
+  registry.npmjs.org/use-sync-external-store/1.2.0:
+    resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz}
+    name: use-sync-external-store
+    version: 1.2.0
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dev: false
+
   registry.npmjs.org/util-deprecate/1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz}
     name: util-deprecate
@@ -8631,4 +8641,26 @@ packages:
     name: yocto-queue
     version: 0.1.0
     engines: {node: '>=10'}
+    dev: false
+
+  registry.npmjs.org/zustand/4.5.2_@types+react@18.2.74:
+    resolution: {integrity: sha512-2cN1tPkDVkwCy5ickKrI7vijSjPksFRfqS6237NzT0vqSsztTNnQdHw9mmN7uBdk3gceVXU0a+21jFzFzAc9+g==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/zustand/-/zustand-4.5.2.tgz}
+    id: registry.npmjs.org/zustand/4.5.2
+    name: zustand
+    version: 4.5.2
+    engines: {node: '>=12.7.0'}
+    peerDependencies:
+      '@types/react': '>=16.8'
+      immer: '>=9.0.6'
+      react: '>=16.8'
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      immer:
+        optional: true
+      react:
+        optional: true
+    dependencies:
+      '@types/react': registry.npmjs.org/@types/react/18.2.74
+      use-sync-external-store: registry.npmjs.org/use-sync-external-store/1.2.0
     dev: false
