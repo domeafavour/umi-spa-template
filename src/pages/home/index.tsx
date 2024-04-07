@@ -1,4 +1,3 @@
-import { HomeLayout } from './containers/HomeLayout';
 import { ToggleDark } from './containers/ToggleDark';
 import { useHelloQuery } from './useHelloQuery';
 
@@ -11,9 +10,9 @@ export default function HomePage() {
     return <div>no data.</div>;
   }
   return (
-    <HomeLayout>
+    <div>
       <p>{data}</p>
       <ToggleDark className="text-red-400 px-4" />
-    </HomeLayout>
+    </div>
   );
 }
