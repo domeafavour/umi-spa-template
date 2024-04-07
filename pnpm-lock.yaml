@@ -1,12 +1,14 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@tanstack/react-query': ^5.29.0
   '@types/react': ^18.0.33
   '@types/react-dom': ^18.0.11
   typescript: ^5.0.3
   umi: ^4.1.8
 
 dependencies:
+  '@tanstack/react-query': registry.npmjs.org/@tanstack/react-query/5.29.0
   umi: registry.npmjs.org/umi/4.1.8_o5fqwwgpzgrhq3zp46bhcohhqm
 
 devDependencies:
@@ -1676,6 +1678,22 @@ packages:
       cosmiconfig: registry.npmjs.org/cosmiconfig/7.1.0
       deepmerge: registry.npmjs.org/deepmerge/4.3.1
       svgo: registry.npmjs.org/svgo/2.8.0
+    dev: false
+
+  registry.npmjs.org/@tanstack/query-core/5.29.0:
+    resolution: {integrity: sha512-WgPTRs58hm9CMzEr5jpISe8HXa3qKQ8CxewdYZeVnA54JrPY9B1CZiwsCoLpLkf0dGRZq+LcX5OiJb0bEsOFww==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@tanstack/query-core/-/query-core-5.29.0.tgz}
+    name: '@tanstack/query-core'
+    version: 5.29.0
+    dev: false
+
+  registry.npmjs.org/@tanstack/react-query/5.29.0:
+    resolution: {integrity: sha512-yxlhHB73jaBla6h5B6zPaGmQjokkzAhMHN4veotkPNiQ3Ac/mCxgABRZPsJJrgCTvhpcncBZcDBFxaR2B37vug==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@tanstack/react-query/-/react-query-5.29.0.tgz}
+    name: '@tanstack/react-query'
+    version: 5.29.0
+    peerDependencies:
+      react: ^18.0.0
+    dependencies:
+      '@tanstack/query-core': registry.npmjs.org/@tanstack/query-core/5.29.0
     dev: false
 
   registry.npmjs.org/@trysound/sax/0.2.0:
