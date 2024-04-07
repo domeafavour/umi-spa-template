@@ -13,7 +13,7 @@ export default function HomePage() {
   return (
     <HomeLayout>
       <p>{data}</p>
-      <ToggleDark />
+      <ToggleDark className="text-red-400 px-4" />
     </HomeLayout>
   );
 }
