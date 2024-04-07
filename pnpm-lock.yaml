@@ -5,6 +5,7 @@ specifiers:
   '@types/react': ^18.0.33
   '@types/react-dom': ^18.0.11
   autoprefixer: ^10.4.19
+  cross-env: ^7.0.3
   postcss: ^8.4.38
   tailwind-merge: ^2.2.2
   tailwindcss: ^3.4.3
@@ -22,6 +23,7 @@ devDependencies:
   '@types/react': registry.npmjs.org/@types/react/18.2.74
   '@types/react-dom': registry.npmjs.org/@types/react-dom/18.2.24
   autoprefixer: registry.npmjs.org/autoprefixer/10.4.19_postcss@8.4.38
+  cross-env: registry.npmjs.org/cross-env/7.0.3
   postcss: registry.npmjs.org/postcss/8.4.38
   tailwindcss: registry.npmjs.org/tailwindcss/3.4.3
   typescript: registry.npmjs.org/typescript/5.4.4
@@ -3449,6 +3451,16 @@ packages:
       safe-buffer: registry.npmjs.org/safe-buffer/5.2.1
       sha.js: registry.npmjs.org/sha.js/2.4.11
     dev: false
+
+  registry.npmjs.org/cross-env/7.0.3:
+    resolution: {integrity: sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz}
+    name: cross-env
+    version: 7.0.3
+    engines: {node: '>=10.14', npm: '>=6', yarn: '>=1'}
+    hasBin: true
+    dependencies:
+      cross-spawn: registry.npmjs.org/cross-spawn/7.0.3
+    dev: true
 
   registry.npmjs.org/cross-spawn/7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz}
