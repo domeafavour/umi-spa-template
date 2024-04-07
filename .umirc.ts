@@ -5,7 +5,7 @@ export default defineConfig({
   jsMinifier: 'terser',
   hash: true,
   routes: [
-    { path: '/', component: 'index' },
+    { path: '/', component: 'home' },
     { path: '/docs', component: 'docs' },
   ],
   npmClient: 'pnpm',
